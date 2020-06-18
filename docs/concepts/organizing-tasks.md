@@ -1,0 +1,27 @@
+---
+title: Organizing tasks by business objectives
+sidebar_label: Organizing tasks
+---
+
+## Goal
+
+Goal is a high level collection of work, lesser than whole backlog but larger than a stage. Goals are used to group tasks together by categorizing them according to business milestones.
+
+Goals are indicative and have no explicit impact on how tasks are organized in Backlog - goals serve as a way to correlate related tasks.
+
+Goals also serve to compartmentalize tasks in logical business milestones and can serve as an indicator for prioritization within a backlog and stages. Using goals to compartmentalize the work is optional but recommended, provided such compartmentalization is at all possible.
+
+If you have Scrum background, Goals also serve as delivery milestones, since delivery milestones are detached from delivery cycles. See [delivery cycles](delivery-cycle.md) for more details.
+
+## Objective
+
+Objective is a high level unit of organization, a collection of goals. Objectives are optional and handle business cases where business objectives span several teams, several backlogs and include several Goals.
+
+## Vision
+
+Vision is the highest level of organization in Clarity. Visions are used to group together Objectives and usually is Organization-wide effort. While goals and objectives are finite, visions are not.
+
+## Implementing goals, objectives and visions
+
+Implying all above units of organization are used, we should define them in following order - Vision, Objective, Goal.
+Who defines these units is subject to the internal semantics of the organization. It could be the case that a Visions are defined by executive management with participation of department heads, Objectives are defined by department heads together with Team leaders and Goals to achieve said Objectives are defined by Team leaders with participation of Team members. Clarity defines no preference here since the goal-setting process is usually very specific for each organization.

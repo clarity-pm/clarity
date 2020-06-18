@@ -1,0 +1,367 @@
+body {
+    font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'segoe ui', roboto, oxygen-sans, ubuntu, cantarell, 'helvetica neue', 'arial', sans-serif, 'apple color emoji', 'segoe ui emoji', 'segoe ui symbol';
+    background: #333;
+    color: #e2e2e2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'SF Pro Display', 'open sans', -apple-system, BlinkMacSystemFont, 'segoe ui', roboto, oxygen-sans, ubuntu, cantarell, 'helvetica neue', 'arial', sans-serif, 'apple color emoji', 'segoe ui emoji', 'segoe ui symbol';
+}
+
+.fixedHeaderContainer header img {
+    height: 60%;
+}
+
+.fixedHeaderContainer header .headerTitleWithLogo {
+    display: none;
+}
+
+.toc .toggleNav .navGroup .navGroupCategoryTitle {
+    color: #e2e2e2;
+}
+
+.toc .toggleNav ul li a {
+    color: #e2e2e2;
+}
+
+.fixedHeaderContainer {
+    background: #3e3e3e;
+    box-shadow: 0 2px 1px -1px rgba(39, 37, 33, .4), 0 1px 1px 0 rgba(39, 37, 33, .28), 0 1px 3px 0 rgba(39, 37, 33, .24);
+}
+
+.navigationSlider .slidingNav ul li > a:focus,
+.navigationSlider .slidingNav ul li > a:hover,
+.navigationSlider .slidingNav ul li.siteNavItemActive > a,
+.navigationSlider .slidingNav ul li.siteNavGroupActive > a {
+    background-color: #3e3e3e;
+}
+
+.docsNavContainer, .docsNavContainer .toc .navBreadcrumb {
+    color: #e2e2e2;
+}
+
+.navBreadcrumb a, .navBreadcrumb span {
+    color: #e2e2e2;
+}
+
+.line1, .line2, .line3 {
+    background-color: #e2e2e2;
+}
+
+.onPageNav a {
+    color: #e2e2e2;
+}
+
+.tocActive .onPageNav {
+    background: #3e3e3e;
+}
+
+.nav-footer {
+    background: #1a1a1a;
+}
+
+button.button {
+    background: transparent;
+    cursor: pointer;
+}
+
+.button {
+    font-weight: 500;
+}
+
+.button:hover {
+    background: #4f66d5;
+    border-color: #4f66d5;
+    transition: background 0.3s, color 0.3s, border-color 0.3s;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+h4, h5, h6 {
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 2.4em;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 1.8em;
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.2;
+}
+
+h4 {
+    font-size: 1.2em;
+    line-height: 1.2;
+}
+
+h5 {
+    font-size: 1.1em;
+    line-height: 1.2;
+}
+
+h6 {
+    font-size: 1.0em;
+    line-height: 1.2;
+}
+
+code, pre {
+    font-family: 'SF Mono', 'source code pro', consolas, 'courier new', courier, monospace;
+}
+
+.docsContainer {
+    padding-bottom: 200px;
+}
+
+p.note-important {
+    display: block;
+    border-left: 8px solid #803703;
+    background: #aa4903;
+    padding: 15px 30px 15px 15px;
+}
+
+p.note-important > strong:first-child {
+    display: block;
+    color: #e2e2e2;
+    margin-bottom: .28571rem;
+}
+
+p.note-important a {
+    text-decoration: underline;
+}
+
+blockquote {
+    color: inherit !important;
+    border-left-color: #23417b;
+    background: #4e6ca5;
+}
+
+article > div > span > h2:first-child {
+    margin-top: 0.5em;
+}
+
+.copyright-mini {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    font-size: 0.7rem;
+}
+
+.homeContainer {
+    min-height: 100vh;
+    background: url("/img/home-background.svg") no-repeat bottom center;
+    background-size: cover;
+}
+
+.homeContainer .homeWrapper {
+    padding-top: 10%;
+}
+
+.homeContainer a.cta {
+    background: #4f66d5;
+    border-color: #4f66d5;
+    font-weight: 600;
+}
+
+table tr:nth-child(2n) {
+    background-color: #3f3f3f;
+}
+
+table thead tr {
+    background-color: #222;
+}
+
+table th, table td {
+    border-color: #555;
+}
+
+hr {
+    border: none;
+    background: #2a2a2a;
+    height: 1px;
+}
+
+div.contact {
+    padding-bottom: 7em;
+}
+
+div.contact form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+div.contact form label input,
+div.contact form label textarea {
+    margin-top: 5px;
+}
+
+div.contact form label input {
+    display: block;
+    background: #464646;
+    border: 1px solid #767676;
+    color: #e2e2e2;
+    outline-color: #5f7aff;
+    font-size: 1em;
+    padding: .714em 1.428em;
+    border-radius: 2px;
+}
+
+div.contact form label textarea {
+    width: 100%;
+    max-width: 427px;
+    display: block;
+    background: #464646;
+    border: 1px solid #767676;
+    color: #e2e2e2;
+    outline-color: #5f7aff;
+    font-size: 1em;
+    padding: .714em;
+    min-height: 10em;
+    border-radius: 2px;
+    overflow: auto;
+}
+
+div.contact-success .ok {
+    border: 1px solid #265330;
+    background: #517d5b;
+    color: #fff;
+    padding: .57143rem 1.14286rem;
+    width: 100%;
+    position: relative;
+    min-height: 1em;
+    border-radius: 2px;
+    margin-bottom: 2em;
+}
+
+div.contact form div.submit {
+    margin-top: 20px;
+}
+
+.updates-subscribe-wrapper {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(56, 56, 56, 0.9);
+    z-index: 9999999;
+    align-items: center;
+    justify-content: center;
+}
+
+.updates-subscribe-container {
+    flex: 1;
+    padding: 2em;
+    max-width: 100%;
+    background: #333333;
+    border: 1px solid #444;
+    border-radius: 3px;
+    flex-direction: column;
+}
+
+.updates-subscribe-container .intro {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.updates-subscribe-container .logo {
+    display: none;
+    height: 1.8em;
+    width: 1.8em;
+    margin-right: 10px;
+}
+
+.updates-subscribe-container .capture {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    flex: 1;
+}
+
+.updates-subscribe-container .about {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.updates-subscribe-container form input {
+    display: block;
+    background: #464646;
+    border: 1px solid #767676;
+    color: #e2e2e2;
+    outline-color: #5f7aff;
+    font-size: 1em;
+    padding: .714em 1.428em;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    width: auto;
+    max-width: 100%;
+}
+
+.updates-subscribe-container form button {
+    display: inline-block;
+}
+
+.updates-subscribe-container form button.submit {
+    border-color: #4f66d5;
+    background: #4f66d5;
+    margin-right: 20px;
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+}
+
+@media only screen and (min-width: 600px) {
+    .updates-subscribe-container .logo {
+        display: block;
+    }
+
+    .updates-subscribe-container {
+        max-width: 600px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (max-width: 1023px) {
+    .docsContainer .wrapper .post .postHeader::before,
+    .docsContainer .wrapper .post .postHeaderTitle::before {
+        height: 210px;
+        margin-top: -200px;
+    }
+
+    .docsNavContainer, .docsNavContainer .toc .navBreadcrumb {
+        border-bottom: 0;
+        background: #2f2f2f;
+        box-shadow: 0 2px 1px -1px rgba(39, 37, 33, .4), 0 1px 1px 0 rgba(39, 37, 33, .28), 0 1px 3px 0 rgba(39, 37, 33, .24);
+    }
+
+    .navigationSlider .slidingNav ul {
+        background: #2f2f2f;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}

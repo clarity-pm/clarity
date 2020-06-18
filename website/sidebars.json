@@ -1,0 +1,25 @@
+{
+  "pages": {
+    "Introduction": [
+      "about",
+      "birds-eye-view",
+      "implementation"
+    ],
+    "Framework": [
+      "concepts/backlog",
+      "concepts/team",
+      "concepts/tasks",
+      "concepts/organizing-tasks",
+      "concepts/delivery-cycle",
+      "concepts/task-stage",
+      "concepts/prioritization",
+      "concepts/routines",
+      "concepts/workflow"
+    ],
+    "More": [
+      "faq",
+      "developer-notes",
+      "legal"
+    ]
+  }
+}
