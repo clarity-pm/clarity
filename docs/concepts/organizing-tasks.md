@@ -19,9 +19,15 @@ Objective is a high level unit of organization, a collection of goals. Objective
 
 ## Vision
 
-Vision is the highest level of organization in Clarity. Visions are used to group together Objectives and usually is Organization-wide effort. While goals and objectives are finite, visions are not.
+Vision is the highest unit of organization in Clarity. Visions are used to group together Objectives and usually is Organization-wide effort. While goals and objectives are finite, visions are not.
 
 ## Implementing goals, objectives and visions
 
 Implying all above units of organization are used, we should define them in following order - Vision, Objective, Goal.
 Who defines these units is subject to the internal semantics of the organization. It could be the case that a Visions are defined by executive management with participation of department heads, Objectives are defined by department heads together with Team leaders and Goals to achieve said Objectives are defined by Team leaders with participation of Team members. Clarity defines no preference here since the goal-setting process is usually very specific for each organization.
+
+### Unit Owners
+
+Both Objectives and Visions should have a designated Unit Owner - a person responsible for each given unit of organization. Owners are managers, they are responsible for the unit of organization assigned to them - for example, Objective Owner would follow the progression and implementation of an Objective, when necessary working to remove impediments, gathering and defining business definition of an Objective and would facilitate communications between all stakeholders related to implementing the Objective.
+
+Individual Owners can be assigned one or more units of organization.
