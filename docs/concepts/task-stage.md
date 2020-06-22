@@ -75,3 +75,19 @@ New should be continuously triaged - either by passing the task to Review or oth
 Review stage should be continuously reviewed and triaged to other stages - Now, Next or Later - no less often than once per delivery cycle.
 
 Later stage is permissible to grow to infinite size, but care should be taken to maintain Later prioritized and tasks should be reviewed once in a while to ensure there are no obsolete tasks and tasks that are no longer required.
+
+## Managing capacity and ever-growing Later
+
+It is very important to keep the size of the stage "Later" balanced against the work capacity of the Team assigned to a particular backlog. Although you may have Later of infinite size, having such a stage is not at all advisable - large backlogs require a lot of investment to keep them maintained, especially from the Team Leader.
+
+Clarity defines three approaches of how to deal with ever-growing Later - limiting Later size, age discard and re-balancing.
+
+Limiting Later size is simple - you need to define a maximum Later size you want to keep at all times and you discard tasks with low priority that overflow the defined maximum size. Each subsequent incoming task added to the Later requires a task with the lowest priority in the Later to be discarded to keep the Later within the established size. Limiting backlog by size requires you to use Estimations - meaning, we bind maximum Later size to some estimate size of the grand total of all estimations in the stage.
+
+Age discard is a similar process - tasks with no update for T period are manually or automatically discarded to make a place for new tasks. This approach is less drastic than limiting size by estimations, but will still help reduce size of the Later and subsequently reduce cost of maintenance for the whole backlog.
+
+Though both approaches might sound drastic at first, given reasonably large limits it is almost always guaranteed that tasks discarded because of the above would never be worked on, anyway. For example, limiting Later size to 50 work cycles, one week each, would cause a queue of work nearly one year long. Provided that work is consistently created (extra work added), unless a drastic change in priorities, it is very unlikely anything at the very end of the Later will get done within a reasonable time frame.
+
+We can also implement both as “soft-limits”, meaning - any task falling out of the defined bounds would trigger a review instead of a discard.
+
+Third approach - re-balancing does not require any tasks to be discarded - instead, backlog size is reduced by moving Tasks and Goals to another existing or new Backlog. This also happens when a Backlog is naturally split to increase capacity and rate of delivery. This however requires capacity increase in the organization - increase capacity and rate of delivery. This however requires capacity increase in the organization -
