@@ -173,13 +173,14 @@ article > div > span > h2:first-child {
 }
 
 .homeContainer a.cta {
+    min-width: 242px;
     background: #4f66d5;
     border-color: #4f66d5;
     font-weight: 600;
 }
 
 .homeContainer a.cta.express {
-    min-width: 241px;
+    min-width: 242px;
     background: transparent;
     border-color: #cad3ff;
     color: #cad3ff;
