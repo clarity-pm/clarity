@@ -10,7 +10,8 @@ Copyright © 2020 Matiss Treinis
 Clarity Work Management Framework™,
 Clarity Agile Work Management Framework™,
 Clarity In Project Management™,
-Clarity Project Management Framework™ - copyright © 2020 Matiss Treinis
+Clarity Project Management Framework™,
+Clarity Express™ - copyright © 2020 Matiss Treinis
 
 This work is licensed under CC BY-NC-ND 4.0 with exceptions (see below). To view a copy of this license,
 visit https://creativecommons.org/licenses/by-nc-nd/4.0

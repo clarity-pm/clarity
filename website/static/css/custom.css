@@ -178,6 +178,14 @@ article > div > span > h2:first-child {
     font-weight: 600;
 }
 
+.homeContainer a.cta.express {
+    min-width: 241px;
+    background: transparent;
+    border-color: #cad3ff;
+    color: #cad3ff;
+    font-weight: 600;
+}
+
 table tr:nth-child(2n) {
     background-color: #3f3f3f;
 }

@@ -109,6 +109,7 @@ class Footer extends React.Component {
           Clarity Agile Work Management Framework&trade;,
           Clarity In Project Management&trade;,
           Clarity Project Management Framework&trade;
+          Clarity Express&trade;
           - copyright &copy; 2020 Matiss Treinis
         </section>
         <noscript>

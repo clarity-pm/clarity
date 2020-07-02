@@ -37,11 +37,22 @@ class HomeSplash extends React.Component {
       </div>
     );
 
+    const ButtonExpress = props => (
+      <div className="pluginWrapper buttonWrapper">
+        <a className="button cta express" href={props.href} target={props.target}>
+          {props.children}
+        </a>
+      </div>
+    );
+
     return (
       <SplashContainer>
         <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title}/>
         <PromoSection>
-          <Button href={docUrl('about')}>Discover Clarity</Button>
+          <Button href={docUrl('about')}>Discover Clarity for teams</Button>
+        </PromoSection>
+        <PromoSection>
+          <ButtonExpress href={docUrl('express')}>Discover Clarity Express</ButtonExpress>
         </PromoSection>
       </SplashContainer>
     );

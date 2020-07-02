@@ -7,6 +7,8 @@ Clarity is a novel agile work management framework designed for teams. It suits 
 
 You can adopt Clarity to manage a variety of work - business operations, software development, construction, manufacturing, sales operations, services operations and many more.
 
+Interested in Clarity for personal task management? See [Clarity Express](express.md).
+
 ## Why Clarity?
 
 Clarity is a light-weight, easy to learn and easy to follow methodology. It provides well-defined building blocks, essential for work management and work planning. Clarity places strong emphasis on prioritization of valuable work, clarity of process and strong work ownership.

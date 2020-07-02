@@ -66,6 +66,8 @@ There are technological workarounds for this problem, for example, maintaining b
 
 Yes, absolutely. Clarity is about providing structure, and nothing prevents you from using Clarity to organize independent work. You can adjust Clarity to work with a team of one perfectly well.
 
+For personal task management you might want to use [Clarity Express](express.md) instead.
+
 ## Is Clarity complete?
 
 Clarity is ready to use and implement, but it will never be “complete”. As recent tendencies and novel ways to organize work are discovered, changes to the framework will be made and the framework will improve and develop along the way.

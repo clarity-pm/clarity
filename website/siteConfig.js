@@ -24,7 +24,8 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'about', label: 'Introduction'},
-    {doc: 'birds-eye-view', label: 'Bird\'s-eye view'}
+    {doc: 'birds-eye-view', label: 'Bird\'s-eye view'},
+    {doc: 'express', label: 'Express'},
   ],
 
   /* path to images for header/footer */
