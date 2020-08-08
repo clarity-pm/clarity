@@ -1,19 +1,38 @@
 ---
-title: Prioritizing tasks
+title: Prioritization
 sidebar_label: Prioritization
 ---
 
-There are several prioritization methodologies that can be used to prioritize tasks. You can choose one best suited to the needs of your work environment or you can use either one of two standard methodologies defined by Clarity - a high level methodology called Rank and a low level methodology called CaPRICE.
+## Stages, prioritization and time
+
+The very foundation of prioritization and scheduling in Clarity is a [task stage](task-stage.md). Stages serve as the primary indicator of priority for all tasks in the backlog. All other prioritization methods serve only as input towards determining what stage a task should have and where should the task be placed within a stage.
+
+Clarity is designed this way because of two reasons - as a general rule, prioritization in time comes naturally to everyone; and priority of work items always tend to increase as time passes and delivery deadlines approach.
+
+We understand the first reason to be true because everyone has a natural ability to prioritize impending work in time based on our environment and constraints around us. The most obvious example of this ability of prioritization is the necessity to consume food - we all know that after a long day we will be hungry, so we naturally prioritize preparing food at the end of the day to deal with that particular situation. We also know that we will need to sleep, so we naturally prioritize tasks to be completed before we are tired and need to sleep.
+
+Clarity is designed in a way to first and foremost capitalize on this natural ability to prioritize our work and world around us. We understand that given enough contextual information, it is much easier for people to prioritize in time than using abstract constructs that could include non-time indicators of priority.
+
+This is the main reason why Clarity backlogs are divided into stages since stages not only serve to compartmentalize work but also serve as an indicator of priority of work in time. All other prioritization methods here are secondary and serve mostly as input to prioritization in time, that is, to fulfill the requirement of having enough context about the tasks. For example, although Rank (explained below) is used as a global priority indicator, it serves to organize backlogs which are in turn further organized in stages. It might seem that Rank is the primary method of prioritization, but it is not - it is simply an input indicator to determine where in the backlog the task should be and what stage the task should have, given the capacity of each stage.
+
+The second reason why Clarity places significant emphasis on prioritization in time is the naturally increasing priority of work as time passes. This is easily illustrated using the same examples we used to illustrate the ability to prioritize in time - since we know we need to consume food to survive, the longer we remain without consuming food, the higher priority it will become because our need for to eat will only increase over time. The same applies to sleep - the longer we remain awake, the greater the need for sleep will become.
+
+Clarity uses this same principle for work organization - a Backlog is just a sliding queue of work - tasks are continuously added, and are removed from the backlog, highest priority first. Therefore, as tasks with high priority today are removed from the backlog, future tasks with lower priority than they have today will increase in priority as time goes by, and the necessity to deliver said tasks also increase. This works this way because, as shown before, we prioritize best using time as a construct to prioritize, and as time passes, the work we scheduled for the future will naturally increase in priority as time goes by.
+
+## Prioritizing
+
+Besides stages, several prioritization methodologies can be used to prioritize tasks. You can choose one best suited to the needs of your work environment or you can use either one of two standard methodologies defined by Clarity - a high-level methodology called Rank and a low-level methodology called CaPRICE.
+
 
 Rank is a high level priority usually defined by Team leader based on input of the Stakeholders and direct know-how. This is the recommended approach to be used when dealing with product backlogs sized below 5-10 thousand tasks.
 
 A relatively large projects should use CaPRICE. This methodology comes at a cost of overhead and is only worth it for relatively large project backlogs - more than 5-10 thousand tasks.
 
-In Clarity, all ranking is scoped to Backlog - current stage and other states a task might have has no bearing on what is the priority of a task. The opposite might be true - task overall priorities can have impact on what stage the task belongs to provided Rank or CaPRICE is used. A goal each task belongs to can also have implicit impact on the priority of the task.
+In Clarity, all ranking is scoped to Backlog - current stage and other states a task might have has no bearing on what is the priority of a task. The opposite is in fact true - task overall priorities have impact on what stage the task belongs to provided Rank or CaPRICE is used. A goal each task belongs to can also have implicit impact on the priority of the task. Absolute priority of a task and task placement within a stage is derived from this priority.
 
 The recommended method for prioritization in Clarity is Rank - it is suitable to all but very large projects.
 
-It is also perfectly fine to use another prioritization methodologies not defined by Clarity explicitly, or no prioritization methodology at all since [Stages](task-stage.md) can serve as means of prioritization too - simply schedule all incoming tasks from New to Now, Next and Later stages. When doing so you should still do your best to keep tasks naturally sorted and organized by implied value each task has.
+It is also perfectly fine to use another prioritization methodologies not defined by Clarity explicitly, or no prioritization methodology at all since [Stages](task-stage.md) already serve as means of prioritization - simply schedule all incoming tasks from New to Now, Next and Later stages. When doing so you should still do your best to keep tasks naturally sorted and organized by implied value each task has, for example, by using bubble-sort.
 
 
 ## Scheduling tasks by priority

@@ -3,7 +3,7 @@ title: Task stages
 sidebar_label: Task stages
 ---
 
-All backlog tasks are separated in stages. Stage serves to indicate overall status of scheduling for a collection of tasks.
+All backlog tasks are separated in stages. The task stage serves to indicate the overall status of [scheduling and priority](prioritization.md) for a collection of tasks.
 
 Process of moving tasks between stages is called Stage Promotion - or simply, Promotion.
 
