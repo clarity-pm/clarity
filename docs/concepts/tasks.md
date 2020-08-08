@@ -84,7 +84,7 @@ Optionally, each task can have a list of smaller units of work - a list of steps
 
 ### Task estimation
 
-Clarity allows for optional task size estimation be incorporated in the workflow. If used, task size estimations should be done either during review.
+Clarity allows for optional task size estimation be incorporated in the workflow. If used, task size estimations should be done either during review or asynchronously by gathering input from the team.
 
 Clarity recommends using time as size estimation indicator for tasks. It is the easiest estimation metric to use and is naturally familiar to everyone.
 
