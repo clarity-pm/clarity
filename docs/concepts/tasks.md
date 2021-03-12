@@ -106,7 +106,7 @@ Task status affects the visibility of a task in backlog. Tasks that are *deliver
 
 - **Impeded:** task with ongoing progress and unforeseen impediment that might affect delivery of the task. Impeded task is considered in progress, but *might* experience a delay in delivery.
 
-- **Waiting:** task is blocked by external dependency (other task, stakeholder). Task will proceed as scheduled once external dependency is resolved.
+- **Waiting:** task is blocked by internal or external dependency (other task, stakeholder, resources, implicit and explicit needs within the team). Task will proceed as scheduled once external dependency is resolved.
 
 - **Blocked:** task is blocked by a *unforeseen blocker* and cannot be worked on without interference from stakeholders, Team leader or other stakeholders.
 
@@ -114,9 +114,25 @@ Task status affects the visibility of a task in backlog. Tasks that are *deliver
 
 - **Landed:** all requirements have been implemented and task has been effectively delivered, pending stakeholder review and approval.
 
-- **Delivered:** task is complete and delivered to stakeholder, if any. Stakeholder has accepted the deliverables of the task and the task is considered complete. Tasks can only transition to Delivered, but not from Delivered to any other status. Delivered tasks are considered immutable and any adjustments to the subject of said task should warrant a new task.
+- **Delivered:** task is complete and delivered to stakeholder. Stakeholder has accepted the deliverables of the task and the task is considered complete. Tasks can only transition to Delivered, but not from Delivered to any other status. Delivered tasks are considered immutable and any adjustments to the subject of said task should warrant a new task.
 
 - **Discarded:** task is invalid, can not and will not be able to be delivered - ex. requirements or scope changed that renders the task not necessary, invalid task, duplicate requirement. Once discarded, tasks should generally remain discarded.
+
+#### Ownership requirements for tasks with status
+
+Tasks with status **Impeded**, **Waiting** and **Blocked** must have concrete ownership - e.g. the task must be assigned to individual who is then responsible for dealing with the issue and transitioning of the task to another status once impediment has been removed. Tasks in this status must never be owner-less!
+
+Tasks with status **In progress** must be assigned to the individual performing the task. Tasks with status **Landed** and **Delivered** must be assigned to stakeholders able to review or accept the tasks.
+
+#### Meta-statuses and lifecycle of the task production
+
+A common approach when managing task statuses, especially when dealing with tasks producing concrete deliverables, is to use statuses as indicators of the meta-life cycle of the task, or an action needed to be performed for the task to be transitioned further in the life-cycle - for example, having separate statuses for production and quality assurance stages of the task.
+
+In Clarity, we consider this to be an anti-pattern, because the current needs or meta-state has no impact on the actual deliverability status of the task.
+
+Taking software development as an example, tasks where one could imagine having a separate status for Quality Assurance, internal testing, code reviews, etc - all belong in **In progress** status, unless capacity constraints or specialization constraints - in which case the task belongs in **Waiting**.
+
+When necessary, "Needs" indicator of the task is used to clearly convey the most immediate required action for the task to be able to transition.
 
 #### Visualizing current status of a task
 
@@ -129,6 +145,18 @@ Clarity recommends use of a 5-aspect "traffic light" as current status indicator
 * **Blocked** and **Waiting** - red light.
 * **In progress** - green light.
 * **Landed** - purple light.
+
+## Needs indicator
+
+Needs indicator, or “Needs”, is an optional meta-state indicator of a task that clearly defines and illustrates the most immediate required action or requirement for the task to transition out of its current status.
+
+Normally, needs should be set whenever the requirement is not already implied by the status of the task - such as Landed - where the task and its deliverables needs stakeholder review - however, this is simply a recommendation and teams are free to apply needs to tasks as they see fit.
+
+Specific needs of a task depend on the business domain - for example, for software development teams we could define the needs as “Needs development”, “Needs Quality Assurance”, “Needs Code Review” etc.
+
+At any given time, there should be only one immediate need per task, or no need at all.
+
+Each team should be free to define their own internal individual needs, and needs are managed by the team itself.
 
 ## Recurring tasks
 

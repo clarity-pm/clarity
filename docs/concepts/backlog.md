@@ -23,6 +23,8 @@ Naturally, Team members may skip tasks they cannot deliver due to their speciali
 
 Path of sharing will not only facilitate growth of the team members with impact on eventual efficiency - this approach also provides redundancy, meaning no one function will ever depend on a single team member. This increases stability when composition of the team changes temporarily - ex. holidays, sick leave, or permanently - members switching teams or moving to different organizations.
 
+It is important to mention that above rule is only concerned with pulling new work that has no previous art. It is perfectly acceptable and sometimes even necessary to assign tasks to specific members of the team during the life-cycle of the task, for example, handing over the tasks from an individual with one speciality to an individual with another, such as handover from an individual responsible for production of the deliverables to an individual responsible for quality assurance or a stakeholder.
+
 Remember that [Immediate](task-stage.md#immediate) stage takes precedence over Now stage. Work on Now can be postponed while Immediate stage is clear of all work.
 
 ## Task order in backlog
