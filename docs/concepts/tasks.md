@@ -152,7 +152,7 @@ Needs indicator, or “Needs”, is an optional meta-state indicator of a task t
 
 Normally, needs should be set whenever the requirement is not already implied by the status of the task - such as Landed - where the task and its deliverables needs stakeholder review - however, this is simply a recommendation and teams are free to apply needs to tasks as they see fit.
 
-Specific needs of a task depend on the business domain - for example, for software development teams we could define the needs as “Needs development”, “Needs Quality Assurance”, “Needs Code Review” etc.
+Specific needs of a task depend on the business domain - for example, for software development teams we could define the needs as “Needs development”, “Needs quality assurance”, “Needs code review” etc.
 
 At any given time, there should be only one immediate need per task, or no need at all.
 
