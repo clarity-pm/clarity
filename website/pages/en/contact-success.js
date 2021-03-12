@@ -17,7 +17,7 @@ function ContactSuccess() {
       <Container className="mainContainer documentContainer postContainer">
         <div className="contact-success">
           <header className="postHeader">
-            <h1>Need help?</h1>
+            <h1>Let's talk!</h1>
           </header>
           <div className={"ok"}>
             All sent! I will get back to you as soon as possible!

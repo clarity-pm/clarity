@@ -17,7 +17,7 @@ function Contact() {
       <Container className="mainContainer documentContainer postContainer">
         <div className="post">
           <header className="postHeader">
-            <h1>Need help?</h1>
+            <h1>Let's talk!</h1>
           </header>
           <p>
             Get in touch! I'd like to hear from you!
