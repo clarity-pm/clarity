@@ -50,7 +50,7 @@ Task objective is used to define "business" requirements. Any technical details,
 
 The example provided here demonstrates how to define task objective with all the necessary business requirements and details for a task to be implemented.
 
-> As logistics manager, I need the delivery management system to send a remainder to customers a day before their package is out for scheduled delivery.
+> As logistics manager, I need the delivery management system to send a reminder to customers a day before their package is out for scheduled delivery.
 >
 > This should be done to reduce the possibility that the customer is absent and unable to receive their package (leading to customer dissatisfaction) and to reduce waste of resources in the logistics department.
 >
