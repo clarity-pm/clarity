@@ -5,9 +5,9 @@ sidebar_label: Tasks
 
 ## What is a task?
 
-Task is the smallest possible work unit in Clarity. It is a completable unit of work which produces deliverable outcome on completion. Tasks are always limited to be assigned to and to be worked on by at most one Team member at any given time. All tasks belong to a single [backlog](backlog.md) and can be further organized using various [business objectives](organizing-tasks.md).
+Task is the smallest possible work unit in Clarity. It is a completable unit of work which produces deliverable outcome on completion. Tasks are always limited to be assigned to and to be worked on by at most one Team member at any given time. All tasks belong to a single [backlog](backlog.md) and can be further organized using various [business objectives](work-organization.md).
 
-Tasks should be organized and sized so that they can be delivered by a single Team member. Objectives that require expertise or work effort from more than one member must be split in several tasks working toward a common [goal](organizing-tasks.md#goal).
+Tasks should be organized and sized so that they can be delivered by a single Team member. Objectives that require expertise or work effort from more than one member must be split in several tasks working toward a common [goal](work-organization.md#goal).
 
 Tasks should be deliverable within at most two delivery cycles, ideally less than one delivery cycle. Larger tasks should be split in smaller chunks.
 

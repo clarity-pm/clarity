@@ -43,7 +43,7 @@ All tasks in Clarity are scheduled by priority and all delivery should follow hi
 
 Rank is a high level priority indicator of a task relative to all other tasks defined in the backlog. As a general rule, ranking is the responsibility of a Team leader, but can be delegated to other role in Team. Doing so however is not recommended as Team leader should be The Source of Truth.
 
-Ranking prioritizes all tasks in five distinct categories called Ranks. Ranks are aligned to the implied value of each task - how much value a delivery of a task will bring to achieve a [Goal](organizing-tasks.md#goal), [Objective](organizing-tasks.md#objective) and [Vision](organizing-tasks.md#vision)? What kind of impact a delivery of a task will have to the customers, end users, stakeholders? Ranking helps to indicate a high level estimate of how valuable is a task and use the rank to prioritize tasks one against another.
+Ranking prioritizes all tasks in five distinct categories called Ranks. Ranks are aligned to the implied value of each task - how much value a delivery of a task will bring to achieve a [Goal](work-organization.md#goal), [Objective](work-organization.md#objective) and [Vision](work-organization.md#vision)? What kind of impact a delivery of a task will have to the customers, end users, stakeholders? Ranking helps to indicate a high level estimate of how valuable is a task and use the rank to prioritize tasks one against another.
 
 Ranking is indicative - for implementations, no technical limitations should be set against being able to sort tasks in Stage within the same Rank and between different ranks.
 

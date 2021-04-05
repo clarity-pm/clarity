@@ -1,7 +1,10 @@
 ---
-title: Organizing tasks by business objectives
-sidebar_label: Organizing tasks
+title: High level work organization
+sidebar_label: Work organization
 ---
+
+Clarity allows for organization of all work into hierarchical structure of focus areas using three
+distinct structural components called Goals, Objectives and Visions.
 
 ## Goal
 

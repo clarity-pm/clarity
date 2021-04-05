@@ -49,7 +49,7 @@ class HomeSplash extends React.Component {
       <SplashContainer>
         <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title}/>
         <PromoSection>
-          <Button href={docUrl('about')}>Discover Clarity for teams</Button>
+          <Button href={docUrl('about')}>Discover Clarity for organizations</Button>
         </PromoSection>
         <PromoSection>
           <ButtonExpress href={docUrl('express')}>Discover Clarity Express</ButtonExpress>
@@ -71,6 +71,6 @@ class Index extends React.Component {
   }
 }
 
-Index.description = 'Clarity is a novel agile work management framework designed for teams. It suits well for organizing projects and continuous work assignments.';
+Index.description = 'Clarity is a novel, high efficiency agile work management framework, designed for organizing projects, continuous work assignments, and organizational structure.';
 
 module.exports = Index;

@@ -9,12 +9,14 @@
       "concepts/backlog",
       "concepts/team",
       "concepts/tasks",
-      "concepts/organizing-tasks",
       "concepts/delivery-cycle",
       "concepts/task-stage",
       "concepts/prioritization",
       "concepts/routines",
-      "concepts/workflow"
+      "concepts/workflow",
+      "concepts/work-organization",
+      "concepts/organizational-structures",
+      "concepts/procedures"
     ],
     "Personal": [
       "express"

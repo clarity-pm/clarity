@@ -1,6 +1,6 @@
 # Clarity
 
-Clarity is a novel agile work management framework designed for teams. 
+Clarity is a novel, high efficiency agile work management framework, designed for organizing projects, continuous work assignments, and organizational structure.
 
 This repository contains Clarity reference documentation and website source code.
 

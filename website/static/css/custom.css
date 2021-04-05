@@ -1,6 +1,6 @@
 body {
     font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'segoe ui', roboto, oxygen-sans, ubuntu, cantarell, 'helvetica neue', 'arial', sans-serif, 'apple color emoji', 'segoe ui emoji', 'segoe ui symbol';
-    background: #333;
+    background: #2e3440;
     color: #e2e2e2;
 }
 
@@ -25,15 +25,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fixedHeaderContainer {
-    background: #3e3e3e;
-    box-shadow: 0 2px 1px -1px rgba(39, 37, 33, .4), 0 1px 1px 0 rgba(39, 37, 33, .28), 0 1px 3px 0 rgba(39, 37, 33, .24);
+    background: #3b4252;
+    border-bottom: 1px solid #2e3440;
 }
 
 .navigationSlider .slidingNav ul li > a:focus,
 .navigationSlider .slidingNav ul li > a:hover,
 .navigationSlider .slidingNav ul li.siteNavItemActive > a,
 .navigationSlider .slidingNav ul li.siteNavGroupActive > a {
-    background-color: #3e3e3e;
+    background-color: #3b4252;
 }
 
 .docsNavContainer, .docsNavContainer .toc .navBreadcrumb {
@@ -53,20 +53,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .tocActive .onPageNav {
-    background: #3e3e3e;
+    background: #3b4252;
 }
 
 .nav-footer {
-    background: #1a1a1a;
+    background: #222833;
 }
 
-button.button {
-    background: transparent;
+.button {
+    background: #434c5e;
     cursor: pointer;
+    border: transparent;
+    color: #fefefe;
 }
 
 .button {
     font-weight: 500;
+    box-sizing: border-box;
 }
 
 .button:hover {
@@ -131,25 +134,27 @@ code, pre {
 
 p.note-important {
     display: block;
-    border-left: 8px solid #803703;
-    background: #aa4903;
+    border-left: 8px solid #9d5945;
+    background: #d08770;
     padding: 15px 30px 15px 15px;
+    color: #111;
 }
 
 p.note-important > strong:first-child {
     display: block;
-    color: #e2e2e2;
+    color: #111;
     margin-bottom: .28571rem;
 }
 
 p.note-important a {
+    color: #111;
     text-decoration: underline;
 }
 
 blockquote {
-    color: inherit !important;
-    border-left-color: #23417b;
-    background: #4e6ca5;
+    border-left-color: #7d5a77;
+    background: #b48ead;
+    color: #111 !important;
 }
 
 article > div > span > h2:first-child {
@@ -173,35 +178,35 @@ article > div > span > h2:first-child {
 }
 
 .homeContainer a.cta {
-    min-width: 242px;
+    min-width: 310px;
     background: #4f66d5;
     border-color: #4f66d5;
     font-weight: 600;
 }
 
-.homeContainer a.cta.express {
-    min-width: 242px;
-    background: transparent;
-    border-color: #cad3ff;
-    color: #cad3ff;
+.homeContainer a.button.cta.express {
+    min-width: 310px;
+    background: rgba(18, 20, 25, 0.3);
+    border: 1px solid #abb6eb;
+    color: #abb6eb;
     font-weight: 600;
 }
 
 table tr:nth-child(2n) {
-    background-color: #3f3f3f;
+    background-color: #3b4252;
 }
 
 table thead tr {
-    background-color: #222;
+    background-color: #4c566a;
 }
 
 table th, table td {
-    border-color: #555;
+    border-color: #434c5e;
 }
 
 hr {
     border: none;
-    background: #2a2a2a;
+    background: #2e3440;
     height: 1px;
 }
 
@@ -221,7 +226,7 @@ div.contact form label textarea {
 
 div.contact form label input {
     display: block;
-    background: #464646;
+    background: #2e3440;
     border: 1px solid #767676;
     color: #e2e2e2;
     outline-color: #5f7aff;
@@ -234,7 +239,7 @@ div.contact form label textarea {
     width: 100%;
     max-width: 427px;
     display: block;
-    background: #464646;
+    background: #2e3440;
     border: 1px solid #767676;
     color: #e2e2e2;
     outline-color: #5f7aff;
@@ -280,7 +285,7 @@ div.contact form div.submit {
     flex: 1;
     padding: 2em;
     max-width: 100%;
-    background: #333333;
+    background: #2e3440;
     border: 1px solid #444;
     border-radius: 3px;
     flex-direction: column;
@@ -313,7 +318,7 @@ div.contact form div.submit {
 
 .updates-subscribe-container form input {
     display: block;
-    background: #464646;
+    background: #2e3440;
     border: 1px solid #767676;
     color: #e2e2e2;
     outline-color: #5f7aff;
@@ -360,12 +365,11 @@ div.contact form div.submit {
 
     .docsNavContainer, .docsNavContainer .toc .navBreadcrumb {
         border-bottom: 0;
-        background: #2f2f2f;
-        box-shadow: 0 2px 1px -1px rgba(39, 37, 33, .4), 0 1px 1px 0 rgba(39, 37, 33, .28), 0 1px 3px 0 rgba(39, 37, 33, .24);
+        background: #434c5e;
     }
 
     .navigationSlider .slidingNav ul {
-        background: #2f2f2f;
+        background: #2e3440;
     }
 }
 

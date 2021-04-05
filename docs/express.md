@@ -1,10 +1,10 @@
 ---
 title: Clarity Express
 sidebar_label: Express
-description: A subset of Clarity Agile Work Management Framework designed for personal use
+description: A subset of Clarity Agile Work Management Framework designed for individual use.
 ---
 
-Express is a simplified subset of Clarity Agile Work Management Framework designed for personal use.
+Express is a simplified subset of Clarity Agile Work Management Framework designed for individual use.
 
 Express methodology is designed to help you manage your personal tasks and day-to-day agenda. Express accomplishes this by categorizing all the tasks in your agenda by their priority in time with a focus on immediate future goals. Express also defines routines to help you regularly manage your personal priorities.
 

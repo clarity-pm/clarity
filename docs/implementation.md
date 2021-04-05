@@ -42,7 +42,7 @@ You should be able to use any task or project management software to implement C
 - Tasks can be visualized and are organized as lists - Kanban-only tools will not do.
 - Tasks in these lists can be separated in sections of tasks to support [stages](concepts/task-stage.md).
 - Tasks can have custom priority labels to support [Rank](concepts/prioritization.md#prioritization-using-rank) or custom priority formulas to support [CaPRICE](concepts/prioritization.md#prioritization-using-caprice), or none of them depending on what prioritization method you want to use.
-- Tasks can have custom labels to indicate [Goals](concepts/organizing-tasks.md#goal), [Objectives](concepts/organizing-tasks.md#objective) and [Visions](concepts/organizing-tasks.md#vision).
+- Tasks can have custom labels to indicate [Goals](concepts/work-organization.md#goal), [Objectives](concepts/work-organization.md#objective) and [Visions](concepts/work-organization.md#vision).
 - Tasks can have custom [statuses](concepts/tasks.md#task-status).
 
 Some of the tools you might be able to use to implement Clarity are listed here. There are probably many more available. You can use any one you like.

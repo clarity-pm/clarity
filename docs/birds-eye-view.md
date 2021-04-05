@@ -11,11 +11,11 @@ Each task has a [Status](concepts/tasks.md#task-status) and [Stage](concepts/tas
 
 We organize all work in progress using iterative [Delivery cycles](concepts/delivery-cycle.md). Delivery cycle is a brief period of time Team works to complete a set of tasks. Delivery cycles help split projects in manageable iterations of work. There are always two pre-defined Delivery cycles that are defined using special task Stages - [Now](concepts/task-stage.md#now) and [Next](concepts/task-stage.md#next).
 
-We can organize tasks using [Goals](concepts/organizing-tasks.md#goal) - goals are specific to single Backlog and Team and group tasks under same logical business goal.
+We can organize tasks using [Goals](concepts/work-organization.md#goal) - goals are specific to single Backlog and Team and group tasks under same logical business goal.
 
-We can organize Goals using [Objectives](concepts/organizing-tasks.md#objective). An Objective is a high level business milestone that groups many Goals. We can share Objectives between multiple Teams and Backlogs.
+We can organize Goals using [Objectives](concepts/work-organization.md#objective). An Objective is a high level business milestone that groups many Goals. We can share Objectives between multiple Teams and Backlogs.
 
-We can organize multiple related Objectives together using [Visions](concepts/organizing-tasks.md#vision). A Vision is a group of Objectives to fulfill a general business vision and direction. Visions are organization-wide.
+We can organize multiple related Objectives together using [Visions](concepts/work-organization.md#vision). A Vision is a group of Objectives to fulfill a general business vision and direction. Visions are organization-wide.
 
 Using Goals, Objectives and Visions is optional but recommended.
 

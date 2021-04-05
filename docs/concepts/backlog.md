@@ -34,13 +34,3 @@ Task order in backlog is a very important part of Clarity. [Prioritization](./pr
 Task status should also never affect the absolute priority of tasks in backlog.
 
 The goal of task ordering is to transmit with absolute clarity what should be done and in what order.
-
-## Example of a backlog visualization
-
-This is a visual example of what a backlog could look like visualized. It is here to help you to better perceive how a backlog should be organized to help you recreate it using a task management system of your liking. Task [stages](task-stage.md) are clearly distinguishable, and it is easy to determine [status](tasks.md#task-status), [rank](prioritization.md#prioritization-using-rank) and assignee of each task.
-
-[Click here](/img/backlog.png) to view full-size visualization. Demo data from [Mozilla issue tracker](https://bugzilla.mozilla.org/home).
-
----
-
-[![Backlog example](/img/backlog-sm.png)](/img/backlog.png)
