@@ -24,14 +24,6 @@ when, why and how work is performed while avoiding interference with normal day-
 This helps teams focus less on the semantics of the process and instead focus on what teams do best - delivering
 results.
 
-Clarity framework handles shifting priorities and self-prioritize tasks in time, since:
-
-1. it is normal and expected for priorities to change as additional information is discovered; and
-2. priority of work items increase as implied delivery deadlines approach; and
-3. prioritization in time is naturally superior to prioritization by abstract constructs.
-
-You can read more about Clarity way of prioritization [here](./concepts/prioritization.md).
-
 ## Five principles of Clarity
 
 - Clarity of process is essential to reduce waste and increase efficiency.

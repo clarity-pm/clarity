@@ -23,18 +23,19 @@ entirely up to you and your team.
 
 ## Is Clarity based on Scrum?
 
-No. Some concepts are similar while others are not. For example, in Scrum, a Sprint (delivery cycle in Clarity) should
-cause deliverable. This is not the case in Clarity - a delivery cycle is a unit of planning and does not forecast a
-deliverable result explicitly. This is what Goals are used for. And there are many such differences, explicit and
-implied.
+No. Fundamentally, Clarity and Scrum are two completely different frameworks, with different set of goals and
+approaches how to achieve said goals. While the two might look similar at a first glance, Clarity is designed
+to serve as a general work management framework, while Scrum is generally product and software development oriented.
 
-Clarity is designed focusing slightly on Teams with significant to total ownership in the work being performed - usually
-self-managed, cross-functional product or service teams.
+For example, in Scrum, a Sprint (delivery cycle in Clarity) should normally result in deliverable or increment to a
+product. This is not the case in Clarity - a delivery cycle is a unit of planning and does not forecast a deliverable
+result explicitly - this is what Goals are used for. There are many such differences, explicit and implied.
+
+Clarity is designed focusing on Teams with significant to total ownership in the work being performed - usually
+self-managed, cross-functional product, services, delivery and other teams.
 
 It is best to avoid a general comparison between the two. Both Scrum and Clarity are sufficiently different to cover
-distinct use cases and different organizational goals. Before deciding for one or another, test both in your
-organization and industry specifically, and draw conclusions from there. General comparisons are rarely useful when
-organizational diversity is considered.
+distinct use cases and different organizational goals.
 
 ## Is Clarity an Agile framework?
 
@@ -57,20 +58,20 @@ sizing estimation is used and is fairly linear.
 Clarity is a generic work management framework and does not define task types as often seen in information technology
 related frameworks and tools.
 
-Besides, task types rarely, if ever, bring any actual value to work organization - it’s just one more metadata item the
+Besides, task types rarely, if ever, bring any actual value to work organization - it is just one more metadata item the
 team needs to fill and consider. Task types are sometimes used as a performance metric - how many bugs do we have, how
-many stories, etc. But categorizing tasks like this serves only to provide some analytical insight, nothing more.
+many stories, etc. Categorizing tasks like this serves only to provide some analytical insight, nothing more.
 
 What you want to consider - does it ever make sense to prioritize using task types? Is a Bug more valuable than a
-Feature because it’s a Bug? Would it not make more sense to prioritize by intrinsic value of a task to the stakeholders
+Feature because it is a Bug? Would it not make more sense to prioritize by intrinsic value of a task to the stakeholders
 instead?
 
 In Clarity, this problem is solved by both Rank and CaPRICE. You prioritize tasks relative to their absolute impact on
-stakeholders - users, customers, consumers. Highly valuable task is highly valuable regardless if it’s a bug or feature.
+stakeholders - users, customers, consumers. Highly valuable task is highly valuable regardless if it is a bug or feature.
 
 Clarity also does not forbid anyone from having more metadata attached to tasks. You can if you need to.
 
-## Can I use Kanban board to illustrate task status within a stage?
+## Can I use Kanban boards to illustrate task status within a stage?
 
 You can use Kanban boards to illustrate task status when using Clarity but doing so is not recommended.
 
@@ -81,7 +82,7 @@ In Kanban, each or nearly each status has a different column on Kanban board - a
 priority between tasks once they separate in different columns without resorting to swim-lanes.
 
 This is not an enormous problem if we assume tasks always travel “in front” of other tasks, from commitment to delivery
-point on Kanban board. But in Clarity that is not the case - tasks can travel freely between statuses and even stages at
+point on Kanban board. In Clarity that is not the case - tasks can travel freely between statuses and even stages at
 ANY given time.
 
 Having such freedom comes at a price - maintenance of priority between items within the same level of priority,

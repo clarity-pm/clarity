@@ -3,21 +3,18 @@ title: Routines
 sidebar_label: Routines
 ---
 
-Clarity defines several routines to be done at certain time intervals or whenever certain conditions are met.
+Clarity defines several routines to be performed by the teams at certain time intervals or whenever certain conditions
+are met.
 
 There are three distinct kinds of routines Clarity defines - Planning, Review and Retrospective routines.
 
-**NOTE:** Currently, some routines related to the high level planning and review are not defined extensively since they
-relate more to how organizations execute planning at a high level than with Clarity framework itself. Apply your best
-judgment on how to manage these.
-
 ## Planning routines
 
-Planning routines are routines during which upcoming work is planned, reviewed and organized. Planning meetings should
+Planning routines are meetings during which upcoming work is planned, reviewed and organized. Planning meetings should
 result in -
 
 1. Clear and defined objectives for all defined organizational units.
-2. Definition of success - how will you determine goals are achieved.
+2. Definition of success - how will you determine that the defined goals are achieved.
 
 ### Delivery cycle planning
 
@@ -62,12 +59,12 @@ communication tools made available to the team.
 
 ### Delivery cycle review
 
-Also known as daily stand-up meeting. The main objectives of cycle review meetings are to present updates on the
-progress and discuss challenges associated with ongoing tasks. Cycle review meetings are done daily.
+Often also referred to as stand-up or daily meeting. The main objectives of cycle review meetings are to present
+updates on the progress and discuss challenges associated with ongoing work. Cycle review meetings are done daily.
 
-It is important to understand that this is a review meeting, not a planning meeting. Avoid in-depth discussions - report
-on current state of affairs, note any issues related to current work, and if necessary - schedule another meeting
-specific to issues identified during cycle review.
+It is important to understand that this is a review meeting, not a planning meeting. Avoid in-depth discussions about
+implementation specifics, and similar - report on current state of affairs, note any issues related to current work,
+and if necessary - schedule another meeting specific to issues identified during the cycle review.
 
 ### Goal and Objective review
 

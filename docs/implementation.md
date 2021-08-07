@@ -81,11 +81,12 @@ aspects and possible configurations of Clarity. Some might require paid features
 customization before making them Clarity-compatible. Some might only support a subset of the features required for a
 full Clarity implementation.
 
-| Name | URL | Notes | |-|-|-| | ClickUp | https://clickup.com | Clarity can be implemented using free version.
-All-in-one project management solution. | | Asana | https://asana.com | Clarity can be implemented using free version.
-For best results paid version is required to use custom fields. Powerful customization options are available. | |
-Todoist | https://todoist.com | Paid version required. Easy to manage. | | Basecamp | https://basecamp.com | Paid
-version most likely required because of usage limitations. |
+| Name        | URL                    | Notes                                                                                                                                                            |
+|----------	|----------------------	|--------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| ClickUp    | https://clickup.com    | Clarity can be implemented using free version. All-in-one project management solution.                                                                        |
+| Asana        | https://asana.com        | Clarity can be implemented using free version. For best results paid version is required to use custom fields. Powerful customization options are available.    |
+| Todoist    | https://todoist.com    | Paid version required. Easy to manage.                                                                                                                        |
+| Basecamp    | https://basecamp.com    | Paid version most likely required because of usage limitations.                                                                                                |
 
 ### How about Atlassian JIRA?
 

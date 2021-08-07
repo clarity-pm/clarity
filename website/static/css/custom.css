@@ -132,7 +132,7 @@ code, pre {
     padding-bottom: 200px;
 }
 
-p.note-important {
+p.note-important, p.note-bcp, p.note {
     display: block;
     border-left: 8px solid #9d5945;
     background: #d08770;
@@ -140,13 +140,27 @@ p.note-important {
     color: #111;
 }
 
-p.note-important > strong:first-child {
+p.note-bcp {
+    border-left: 8px solid #7f906d;
+    background: #a3be8c;
+}
+
+p.note {
+    border-left: 8px solid #6d8090;
+    background: #8caabe;
+}
+
+p.note-important > strong:first-child,
+p.note-bcp > strong:first-child,
+p.note > strong:first-child {
     display: block;
     color: #111;
     margin-bottom: .28571rem;
 }
 
-p.note-important a {
+p.note-important a,
+p.note-bcp a,
+p.note a {
     color: #111;
     text-decoration: underline;
 }

@@ -21,6 +21,13 @@ if (!String.prototype.trim) {
         if (html === 'Important') {
           p.className = (p.className + ' note-important').trim();
         }
+        if (html === 'BCP') {
+          p.firstChild.innerHTML = 'Best current practice';
+          p.className = (p.className + ' note-bcp').trim();
+        }
+        if (html === 'Note') {
+          p.className = (p.className + ' note').trim();
+        }
       }
     }
 

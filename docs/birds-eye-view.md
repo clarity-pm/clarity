@@ -21,9 +21,8 @@ and similar.
 
 We organize all work in progress using iterative [Delivery cycles](concepts/delivery-cycle.md). Delivery cycle is a
 brief period of time Team works to complete a set of tasks. Delivery cycles help split projects in manageable iterations
-of work. There are always two pre-defined Delivery cycles that are defined using special task Stages
-
-- [Now](concepts/task-stage.md#now) and [Next](concepts/task-stage.md#next).
+of work. There are always two pre-defined Delivery cycles that are defined using special task
+Stages - [Now](concepts/task-stage.md#now) and [Next](concepts/task-stage.md#next).
 
 We can organize tasks using [Goals](concepts/work-organization.md#goal) - goals are specific to single Backlog and Team
 and group tasks under same logical business goal.
