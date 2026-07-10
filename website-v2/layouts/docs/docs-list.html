@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="docMainWrapper wrapper">
+  <div class="docsNavContainer" id="docsNav">
+    {{ partial "sidebar.html" . }}
+  </div>
+  <div class="container mainContainer docsContainer">
+    <div class="wrapper">
+      <div class="post">
+        <header class="postHeader">
+          <h1 id="__docusaurus" class="postHeaderTitle">{{ .Title }}</h1>
+        </header>
+        <article><div><span><p>Choose a section from the documentation navigation.</p></span></div></article>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

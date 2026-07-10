@@ -1,0 +1,13 @@
+{{- $target := .Params.target | default "/" -}}
+<!doctype html>
+<html lang="{{ .Site.Language.Lang }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="0; url={{ $target }}">
+    <link rel="canonical" href="{{ $target | absURL }}">
+    <title>{{ .Title | default "Redirecting" }} | {{ .Site.Title }}</title>
+  </head>
+  <body>
+    <p><a href="{{ $target }}">Continue</a>.</p>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="{{ .Site.Language.Lang }}">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body{{ if eq .Section "docs" }} class="sideNavVisible separateOnPageNav"{{ end }}>
+    {{ partial "header.html" . }}
+    <div class="navPusher">
+      {{ block "main" . }}{{ end }}
+      {{ partial "footer.html" . }}
+    </div>
+  </body>
+</html>

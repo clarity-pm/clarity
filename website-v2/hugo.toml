@@ -1,0 +1,39 @@
+baseURL = "https://clarity.pm/"
+title = "Clarity"
+defaultContentLanguage = "en"
+locale = "en-US"
+enableGitInfo = true
+disableKinds = ["taxonomy", "term", "RSS"]
+cleanDestinationDir = true
+
+[params]
+  tagline = "Clarity Agile Work Management Framework"
+  description = "Clarity is a novel, high efficiency agile work management framework, designed for organizing projects, continuous work assignments, and organizational structure."
+  contactEmail = "contact@clarity.pm"
+  ogImage = "img/home-background.svg"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+    ordered = false
+
+[module]
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+  [[module.mounts]]
+    source = "../docs"
+    target = "content/docs"
+  [[module.mounts]]
+    source = "data"
+    target = "data"
+  [[module.mounts]]
+    source = "layouts"
+    target = "layouts"
+  [[module.mounts]]
+    source = "static"
+    target = "static"

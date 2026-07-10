@@ -1,0 +1,36 @@
+{{- $pages := slice -}}
+{{- range hugo.Data.sidebar.groups -}}
+  {{- range .pages -}}
+    {{- $doc := site.GetPage (printf "docs/%s" .) -}}
+    {{- if $doc -}}
+      {{- $pages = $pages | append $doc -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $index := -1 -}}
+{{- range $i, $page := $pages -}}
+  {{- if eq $page.RelPermalink $.RelPermalink -}}
+    {{- $index = $i -}}
+  {{- end -}}
+{{- end -}}
+{{- if ge $index 0 -}}
+  {{- $prev := false -}}
+  {{- $next := false -}}
+  {{- if gt $index 0 -}}
+    {{- $prev = index $pages (sub $index 1) -}}
+  {{- end -}}
+  {{- if lt (add $index 1) (len $pages) -}}
+    {{- $next = index $pages (add $index 1) -}}
+  {{- end -}}
+  {{- if or $prev $next -}}
+    <div class="docs-prevnext">
+      {{- with $prev }}
+        <a class="docs-prev button" href="{{ partial "clean-url.html" .RelPermalink }}"><span class="arrow-prev">← </span><span>{{ .Params.sidebar_label | default .LinkTitle }}</span></a>
+      {{- end }}
+      {{- with $next }}
+        <a class="docs-next button" href="{{ partial "clean-url.html" .RelPermalink }}"><span>{{ .Params.sidebar_label | default .LinkTitle }}</span><span class="arrow-next"> →</span></a>
+      {{- end }}
+    </div>
+  {{- end -}}
+{{- end -}}
+

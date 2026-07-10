@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="docMainWrapper wrapper">
+  <div class="docsNavContainer" id="docsNav">
+    {{ partial "sidebar.html" . }}
+  </div>
+  <div class="container mainContainer docsContainer">
+    <div class="wrapper">
+      <div class="post">
+        <header class="postHeader">
+          <h1 id="__docusaurus" class="postHeaderTitle">{{ .Title }}</h1>
+        </header>
+        <article><div><span>{{ replace .Content "Matiss Treinis" "Matīss Treinis" | safeHTML }}</span></div></article>
+        {{ with .Lastmod }}
+          <div class="docLastUpdate"><em>Last updated on {{ .Format "1/2/2006" }}</em></div>
+        {{ end }}
+        {{ partial "docs-prevnext.html" . }}
+      </div>
+    </div>
+  </div>
+  {{ if .Fragments.Headings }}
+    <nav class="onPageNav">
+      {{ partial "toc-headings.html" .Fragments.Headings }}
+    </nav>
+  {{ end }}
+</div>
+{{ end }}

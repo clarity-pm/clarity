@@ -1,0 +1,102 @@
+{{- $activeGroup := "" -}}
+{{- range hugo.Data.sidebar.groups -}}
+  {{- $groupTitle := .title -}}
+  {{- range .pages -}}
+    {{- $doc := site.GetPage (printf "docs/%s" .) -}}
+    {{- if and $doc (eq $doc.RelPermalink $.RelPermalink) -}}
+      {{- $activeGroup = $groupTitle -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+<nav class="toc">
+  <div class="toggleNav">
+    <section class="navWrapper wrapper">
+      <div class="navBreadcrumb wrapper">
+        <div class="navToggle" id="navToggler">
+          <div class="hamburger-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </div>
+        <h2><i>›</i><span>{{ $activeGroup | default "Introduction" }}</span></h2>
+        <div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div>
+      </div>
+      <div class="navGroups">
+    {{- range hugo.Data.sidebar.groups }}
+      <div class="navGroup">
+        <h3 class="navGroupCategoryTitle">{{ .title }}</h3>
+        <ul class="">
+          {{- range .pages }}
+            {{- $doc := site.GetPage (printf "docs/%s" .) -}}
+            {{- if $doc }}
+              {{- $href := partial "clean-url.html" $doc.RelPermalink -}}
+              <li class="navListItem{{ if eq $doc.RelPermalink $.RelPermalink }} navListItemActive{{ end }}">
+                <a class="navItem" href="{{ $href }}">{{ $doc.Params.sidebar_label | default $doc.LinkTitle }}</a>
+              </li>
+            {{- end }}
+          {{- end }}
+        </ul>
+      </div>
+    {{- end }}
+      </div>
+    </section>
+  </div>
+  <script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script>
+</nav>

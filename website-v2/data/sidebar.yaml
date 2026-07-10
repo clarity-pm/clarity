@@ -1,0 +1,28 @@
+groups:
+  - title: Introduction
+    pages:
+      - about
+      - birds-eye-view
+      - implementation
+  - title: Framework
+    pages:
+      - concepts/backlog
+      - concepts/team
+      - concepts/tasks
+      - concepts/delivery-cycle
+      - concepts/task-stage
+      - concepts/prioritization
+      - concepts/routines
+      - concepts/workflow
+      - concepts/work-organization
+      - concepts/organizational-structures
+      - concepts/procedures
+  - title: Personal
+    pages:
+      - express
+  - title: More
+    pages:
+      - faq
+      - developer-notes
+      - legal
+

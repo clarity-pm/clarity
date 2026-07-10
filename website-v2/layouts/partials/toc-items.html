@@ -1,0 +1,8 @@
+{{- range . }}
+  {{- if and (ge .Level 2) (le .Level 3) }}
+    <li><a href="#{{ .ID }}">{{ .Title | plainify }}</a>{{ with .Headings }}{{ partial "toc-headings.html" . }}{{ end }}</li>
+  {{- else }}
+    {{- with .Headings }}{{ partial "toc-items.html" . }}{{ end -}}
+  {{- end }}
+{{- end }}
+

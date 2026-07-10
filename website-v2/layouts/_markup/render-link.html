@@ -1,0 +1,22 @@
+{{- $dest := .Destination -}}
+{{- $href := $dest -}}
+{{- $isExternal := or (strings.HasPrefix $dest "http://") (strings.HasPrefix $dest "https://") (strings.HasPrefix $dest "mailto:") (strings.HasPrefix $dest "tel:") (strings.HasPrefix $dest "//") -}}
+{{- if or (eq $dest "/contact") (eq $dest "/contact/") -}}
+  {{- $href = printf "mailto:%s" site.Params.contactEmail -}}
+  {{- $isExternal = true -}}
+{{- end -}}
+{{- if and (not $isExternal) (not (strings.HasPrefix $dest "#")) -}}
+  {{- $url := urls.Parse $dest -}}
+  {{- $pathPart := $url.Path -}}
+  {{- $query := cond (ne $url.RawQuery "") (printf "?%s" $url.RawQuery) "" -}}
+  {{- $fragment := cond (ne $url.Fragment "") (printf "#%s" $url.Fragment) "" -}}
+  {{- $isMarkdown := strings.HasSuffix $pathPart ".md" -}}
+  {{- $hasExtension := ne (path.Ext $pathPart) "" -}}
+  {{- if and (eq .Page.Section "docs") (not (strings.HasPrefix $pathPart "/")) (or $isMarkdown (not $hasExtension)) -}}
+    {{- $targetPath := replaceRE "\\.md$" "" $pathPart -}}
+    {{- $href = printf "%s%s%s" (path.Join "/" .Page.File.Dir $targetPath) $query $fragment -}}
+  {{- else if $isMarkdown -}}
+    {{- $href = printf "%s%s%s" (replaceRE "\\.md$" "" $pathPart) $query $fragment -}}
+  {{- end -}}
+{{- end -}}
+<a href="{{ $href | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>{{- "" -}}

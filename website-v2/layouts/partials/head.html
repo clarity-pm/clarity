@@ -1,0 +1,26 @@
+{{- $description := .Description | default .Site.Params.description -}}
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="{{ $description }}">
+{{- if eq .Section "docs" }}
+<meta name="docsearch:language" content="en">
+{{- end }}
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }} · {{ .Site.Params.tagline }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Site.BaseURL }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:image" content="{{ "img/home-background.svg" | absURL }}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="{{ "img/home-background.svg" | absURL }}">
+<title>{{ if .IsHome }}{{ .Site.Title }} · {{ .Site.Params.tagline }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}</title>
+<link rel="shortcut icon" href="{{ "img/favicon.ico" | relURL }}">
+<link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/darcula.min.css">
+<script type="text/javascript" src="{{ "js/tag.js?v=1" | relURL }}"></script>
+<script type="text/javascript" src="{{ "js/index.js?v=1" | relURL }}"></script>
+<script src="{{ "js/scrollSpy.js" | relURL }}"></script>
+<link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+<link rel="stylesheet" href="{{ "css/overrides.css" | relURL }}">
+<script src="{{ "js/codetabs.js" | relURL }}"></script>

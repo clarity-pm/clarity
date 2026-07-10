@@ -1,0 +1,25 @@
+<div class="fixedHeaderContainer">
+  <div class="headerWrapper wrapper">
+    <header>
+      <a href="{{ "/" | relURL }}">
+        <img class="logo" src="{{ "img/logo_dark.svg" | relURL }}" alt="Clarity">
+        <h2 class="headerTitleWithLogo">Clarity</h2>
+      </a>
+      <div class="navigationWrapper navigationSlider">
+        <nav class="slidingNav">
+          <ul class="nav-site nav-site-internal">
+            <li class="{{ if eq .Section "docs" }}siteNavGroupActive{{ end }}{{ if eq .RelPermalink "/docs/about/" }} siteNavItemActive{{ end }}">
+              <a href="/docs/about" target="_self">Introduction</a>
+            </li>
+            <li class="{{ if eq .Section "docs" }}siteNavGroupActive{{ end }}{{ if eq .RelPermalink "/docs/birds-eye-view/" }} siteNavItemActive{{ end }}">
+              <a href="/docs/birds-eye-view" target="_self">Bird's-eye view</a>
+            </li>
+            <li class="{{ if eq .Section "docs" }}siteNavGroupActive{{ end }}{{ if eq .RelPermalink "/docs/express/" }} siteNavItemActive{{ end }}">
+              <a href="/docs/express" target="_self">Express</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </div>
+</div>

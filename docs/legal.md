@@ -5,7 +5,7 @@ sidebar_label: Legal
 
 ## Clarity license terms and conditions
 
-Copyright © 2020 Matiss Treinis
+Copyright © 2020-2026 Matīss Treinis
 
 Clarity Work Management Framework™, Clarity Agile Work Management Framework™, Clarity In Project Management™, Clarity
 Project Management Framework™, Clarity Express™ - copyright © 2020 Matiss Treinis
@@ -46,7 +46,7 @@ website is available freely from Git repository located at https://github.com/cl
 Clarity website might include proprietary content, images, graphics and multimedia not licensed under MIT license. Such
 elements will be clearly marked as such if possible.
 
-Copyright © 2020 Matiss Treinis
+Copyright © 2020-2026 Matiss Treinis
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
 documentation files (the "Software"), to deal in the Software without restriction, including without limitation the

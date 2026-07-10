@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="docMainWrapper wrapper">
+  <div class="container mainContainer documentContainer postContainer">
+    <div class="wrapper">
+      <div class="post">
+        <header class="postHeader">
+          <h1>{{ .Title }}</h1>
+        </header>
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
