@@ -1,36 +1,56 @@
 > Clarity license terms and conditions
 
-Copyright © 2020 Matiss Treinis
+Copyright © 2020-2026 Matīss Treinis
 
 Clarity Work Management Framework™,
 Clarity Agile Work Management Framework™,
 Clarity In Project Management™,
 Clarity Project Management Framework™,
-Clarity Express™ - copyright © 2020 Matiss Treinis
+Clarity Express™ - copyright © 2020-2026 Matīss Treinis
 
-This work is licensed under CC BY-NC-ND 4.0 with exceptions (see bellow). To view a copy of this license,
-visit https://creativecommons.org/licenses/by-nc-nd/4.0
+This work is licensed under CC BY-NC-ND 4.0 together with the additional permissions below. To view a copy of the base
+license, visit https://creativecommons.org/licenses/by-nc-nd/4.0.
 
-> License exceptions and special provisions
+> Additional permissions and special provisions
 
-Subject to the terms and conditions of the License, in addition to legal provisions set by CC BY-NC-ND 4.0,
-the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable
-license to exercise the Licensed Rights in the Licensed Material to:
+Subject to the terms and conditions of CC BY-NC-ND 4.0, the Licensor grants You the following worldwide, royalty-free,
+non-sublicensable, non-exclusive, irrevocable additional permissions to exercise the Licensed Rights in the Licensed
+Material. These additional permissions are subject to the prohibited-activities paragraph below. Where an additional
+permission applies, all other terms and conditions of CC BY-NC-ND 4.0 remain in effect.
 
-1. Apply, use and implement methodologies, techniques and processes described in the Licensed Material
-   in commercial or not-for-profit setting, for benefit, with and without receiving monetary compensation for doing so.
-2. Create tools, computer systems and software implementing methodologies, techniques and processes described in the Licensed
-   Material in commercial or not-for-profit setting for own or third party use, and receive monetary compensation
-   for use of said tools, systems and software from third parties. Distributing Licensed Material or parts of it as part of documentation for these tools, computer systems and software is permitted provided attribution requirements are met.
-3. Use the Licensed Material for educational purposes - purposes directly related to learning, teaching, training,
-   research and development that are part of the instructional functions performed by an Educational Institution
-   and in the case of Students, purposes related to learning, training, research or development.
-   "Educational Purposes" does not include commercial, professional or any other for-profit purposes.
+1. Apply, use and implement methodologies, techniques and processes described in the Licensed Material to manage Your own
+   work or work You otherwise perform for a third party, in a commercial or not-for-profit setting and with or without
+   monetary compensation for that underlying work.
+2. Create tools, computer systems and software implementing methodologies, techniques and processes described in the
+   Licensed Material in a commercial or not-for-profit setting for own or third-party use, and receive monetary
+   compensation for use of those tools, systems and software from third parties. You may reproduce and Share parts of the
+   Licensed Material only as documentation reasonably necessary to operate those tools, systems and software, provided
+   the attribution requirements are met.
+3. Use, reproduce and Share the Licensed Material, and produce, reproduce and Share Adapted Material, for Educational
+   Purposes. "Educational Institution" means a school, college, university, or vocational institution recognized or
+   accredited under applicable law, including its teachers, staff, and contractors acting solely on its behalf as part of
+   its ordinary instructional functions. "Student" means a person enrolled in a course or program provided by an
+   Educational Institution.
 
-To summarize: you may use and implement Clarity for own or corporate, including third parties, use without limitation;
-and you can create tools and software for Clarity and implementing Clarity techniques, methodologies and processes,
-and sell/rent/license these tools, systems and software to others. You are free to use Clarity for educational purposes
-as part of a course or teaching program.
+"Educational Purposes" means learning, teaching, training, research, or development provided to Students as part of an
+Educational Institution's ordinary curriculum or recognized program, whether delivered in person or online. A course may
+teach Clarity directly. Charging tuition or ordinary institutional fees for the broader curriculum or program does not by
+itself disqualify the use.
+
+Except for Educational Purposes permitted under paragraph 3, the Licensed Material and the Clarity names and marks must
+not be used, without prior written permission from the Licensor, to create, offer, market, sell, license, or provide any
+Clarity course, training program, coaching or consulting service whose principal subject or commercial value is Clarity,
+including a course module incorporated into another course, a course included in a platform or catalog of courses, or a
+course distributed through a third-party course marketplace. This prohibition also covers any examination, credential,
+certificate, certification, or accreditation associated with such a course or service, whether delivered online or
+offline, including in person, and any free offering used to promote a commercial service or obtain commercial advantage.
+Neither the offering nor its provider may suggest endorsement or imply endorsement, authorization, affiliation,
+sponsorship, official status, or certification by the Licensor.
+
+To summarize: organizations may use Clarity to manage their own work or work they otherwise perform for clients, and may
+create commercial tools that implement Clarity. Qualifying Educational Institutions may teach Clarity to enrolled
+Students as part of their ordinary instructional programs, including online. The prohibited activities described above
+require prior written permission from the Licensor. The operative terms above and CC BY-NC-ND 4.0 control.
 
 > Website license
 
@@ -40,7 +60,7 @@ website is available freely from Git repository located at https://github.com
 Clarity website might include proprietary content, images, graphics and multimedia not licensed under MIT license.
 Such elements will be clearly marked as such if possible.
 
-Copyright © 2020 Matiss Treinis
+Copyright © 2020-2026 Matīss Treinis
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
 documentation files (the "Software"), to deal in the Software without restriction, including without limitation
